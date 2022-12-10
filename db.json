@@ -1,0 +1,72 @@
+{
+  "cargos": [
+    {
+      "codigo": 1,
+      "descripccion": "Entenamiento",
+      "vencimiento": "1",
+      "periodo": "Mes",
+      "precio": "1000",
+      "descuento": "",
+      "id": 1
+    },
+    {
+      "codigo": 2,
+      "descripccion": "Entenamiento Perosnalisado",
+      "vencimiento": "1",
+      "periodo": "Mes",
+      "precio": "1500",
+      "descuento": "",
+      "id": 2
+    },
+    {
+      "codigo": 3,
+      "descripccion": "Entenamiento Perosnalisado",
+      "vencimiento": "1",
+      "periodo": "Dia",
+      "precio": "1000",
+      "descuento": "",
+      "id": 3
+    }
+  ],
+  "Incripcions": [
+    {
+      "codigo": 1,
+      "descripccion": "",
+      "vencimiento": "1",
+      "periodo": "Mes",
+      "precio": "1000",
+      "id": 1,
+      "cargo": "2"
+    },
+    {
+      "codigo": 2,
+      "cargo": "1",
+      "vencimiento": "3",
+      "periodo": "Semanal",
+      "precio": "1500",
+      "id": 2
+    }
+  ],
+  "Cuerpos":[
+    {
+      "nombre": "Ectomorfo",
+      "descripccion":"Poca grasa corporal y poco músculo. Le cuesta ganar peso."
+    },
+    {
+      "nombre": "Mesomorfo",
+      "descripccion":"Pierde grasa corporal fácilmente y gana músculo rápidamente."
+    },
+    {
+      "nombre": "Endomorfo",
+      "descripccion":"Gana peso fácilmente en comparación con otros tipos de cuerpo"
+    }
+  ],
+  "estadistica":[
+    {
+      "grasaCorporar":"",
+      "altura":"",
+      "pesoAt":"",
+      "pesoEsp":""
+    }
+  ]
+}
