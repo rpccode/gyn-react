@@ -1,12 +1,14 @@
-import { configureStore } from '@reduxjs/toolkit'
-import { cargoSlice } from './cargo/cargoSlice'
-import { inscripciónSlice } from './Gyn/inscripccion/inscripccionSlice'
-import { SocioSlice } from './socio/SocioSlice'
+import { configureStore } from "@reduxjs/toolkit";
+import { cargoSlice } from "./cargo/cargoSlice";
+import { inscripciónSlice, planesSlice, tipoPagoSlice } from "./Gyn";
+import { SocioSlice } from "./socio/SocioSlice";
 
 export const store = configureStore({
   reducer: {
     Socio: SocioSlice.reducer,
     cargo: cargoSlice.reducer,
-    Inscripcion: inscripciónSlice.reducer
+    Inscripcion: inscripciónSlice.reducer,
+    TipoPago: tipoPagoSlice.reducer,
+    Planes: planesSlice.reducer,
   },
-})
+});

@@ -26,6 +26,15 @@
       "precio": "1000",
       "descuento": "",
       "id": 3
+    },
+    {
+      "codigo": 4,
+      "descripccion": "Entenamiento",
+      "vencimiento": "1",
+      "periodo": "Dia",
+      "precio": "1000",
+      "descuento": "",
+      "id": 4
     }
   ],
   "Incripcions": [
@@ -47,26 +56,78 @@
       "id": 2
     }
   ],
-  "Cuerpos":[
+  "Cuerpos": [
     {
       "nombre": "Ectomorfo",
-      "descripccion":"Poca grasa corporal y poco músculo. Le cuesta ganar peso."
+      "descripccion": "Poca grasa corporal y poco músculo. Le cuesta ganar peso."
     },
     {
       "nombre": "Mesomorfo",
-      "descripccion":"Pierde grasa corporal fácilmente y gana músculo rápidamente."
+      "descripccion": "Pierde grasa corporal fácilmente y gana músculo rápidamente."
     },
     {
       "nombre": "Endomorfo",
-      "descripccion":"Gana peso fácilmente en comparación con otros tipos de cuerpo"
+      "descripccion": "Gana peso fácilmente en comparación con otros tipos de cuerpo"
     }
   ],
-  "estadistica":[
+  "estadistica": [
     {
-      "grasaCorporar":"",
-      "altura":"",
-      "pesoAt":"",
-      "pesoEsp":""
+      "grasaCorporar": "",
+      "altura": "",
+      "pesoAt": "",
+      "pesoEsp": ""
+    }
+  ],
+  "TipoPagos": [
+    {
+      "codigo": 2,
+      "descripcion": "credito",
+      "id": 1
+    },
+    {
+      "codigo": 2,
+      "descripcion": "debito",
+      "id": 2
+    },
+    {
+      "codigo": 3,
+      "descripcion": "tarjeta de credito",
+      "id": 3
+    },
+    {
+      "codigo": 4,
+      "descripcion": "tarjeta de debito",
+      "id": 4
+    }
+  ],
+  "Socios": [
+    {
+      "fechaCreacion": "Dec-18-2022",
+      "nombre": "Rudy",
+      "apellido": "Casilla",
+      "sexo": "Masculino",
+      "fechaNacimiento": "1996-02-17",
+      "tipoDoc": "cedula",
+      "numDoc": "40211124660",
+      "telefono": "8299785120",
+      "celular": "",
+      "direccion": "Urb miraflores av estralla shadala calle 1 casa 8",
+      "estado": "activo",
+      "id": 1
+    },
+    {
+      "fechaCreacion": "Dec-18-2022",
+      "nombre": "frank",
+      "apellido": "perez",
+      "sexo": "Masculino",
+      "fechaNacimiento": "1996-02-17",
+      "tipoDoc": "cedula",
+      "numDoc": "40211124660",
+      "telefono": "8299785120",
+      "celular": "8292575120",
+      "direccion": "37 Avenida 3-13 zona 7 Colonia Loma",
+      "estado": "activo",
+      "id": 2
     }
   ]
 }

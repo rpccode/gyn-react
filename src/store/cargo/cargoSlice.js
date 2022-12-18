@@ -4,7 +4,7 @@ export const cargoSlice = createSlice({
   name: "cargo",
   initialState: {
     isSaving: false,
-    isEditing:false,
+    isEditing: false,
     messageSave: "",
     cargos: [],
     active: {
@@ -28,8 +28,8 @@ export const cargoSlice = createSlice({
       state.active = action.payload;
       state.messageSave = "";
     },
-    setEditing: (state,action) => {
-            state.isEditing = true
+    setEditing: (state, action) => {
+      state.isEditing = true;
     },
     setCargo: (state, action) => {
       state.cargos = action.payload;
@@ -52,9 +52,9 @@ export const cargoSlice = createSlice({
       state.cargos = [];
       state.active = null;
     },
-    clearCargoActive:(state, action)=>{
-        state.active = action.payload
-        state.isEditing = false
+    clearCargoActive: (state, action) => {
+      state.active = action.payload;
+      state.isEditing = false;
     },
     delectCargoById: (state, action) => {
       state.cargos = state.cargos.filter(

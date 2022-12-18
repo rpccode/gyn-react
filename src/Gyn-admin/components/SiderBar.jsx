@@ -80,8 +80,8 @@ export const SiderBar = () => {
                   </Link>
                 </li>
                 <li>
-                  <Link className="dropdown-item" to="#">
-                    Action
+                  <Link className="dropdown-item" to="/tipopago">
+                    Tipo de Pago
                   </Link>
                 </li>
               </ul>
