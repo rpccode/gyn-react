@@ -196,7 +196,7 @@ export const PlanesForm = ({ formSumbmitte, setformSumbmitte }) => {
               className="form-control"
               name="concepto"
               value={concepto}
-              //   onChange={onInputChange}
+              onChange={onInputChange}
             />
             <label htmlFor="" className="text-danger">
               {!!conceptoValid && formSumbmitte && conceptoValid}

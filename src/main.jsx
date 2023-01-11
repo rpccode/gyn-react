@@ -4,7 +4,7 @@ import { BrowserRouter } from 'react-router-dom'
 import { Provider } from 'react-redux'
 import { store } from './store/store'
 import GynApp from './GynApp'
-
+import 'animate.css';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>

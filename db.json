@@ -2,7 +2,7 @@
   "cargos": [
     {
       "codigo": 1,
-      "descripccion": "Entenamiento",
+      "descripccion": "Entrenamiento",
       "vencimiento": "1",
       "periodo": "Mes",
       "precio": "1000",
@@ -11,7 +11,7 @@
     },
     {
       "codigo": 2,
-      "descripccion": "Entenamiento Perosnalisado",
+      "descripccion": "Entrenamiento Perosnalisado",
       "vencimiento": "1",
       "periodo": "Mes",
       "precio": "1500",
@@ -20,7 +20,7 @@
     },
     {
       "codigo": 3,
-      "descripccion": "Entenamiento Perosnalisado",
+      "descripccion": "Entrenamiento Perosnalisado",
       "vencimiento": "1",
       "periodo": "Dia",
       "precio": "1000",
@@ -29,7 +29,7 @@
     },
     {
       "codigo": 4,
-      "descripccion": "Entenamiento",
+      "descripccion": "Entrenamiento",
       "vencimiento": "1",
       "periodo": "Dia",
       "precio": "1000",
@@ -42,10 +42,10 @@
       "codigo": 1,
       "descripccion": "",
       "vencimiento": "1",
-      "periodo": "Mes",
+      "periodo": "Semanal",
       "precio": "1000",
       "id": 1,
-      "cargo": "2"
+      "cargo": "1"
     },
     {
       "codigo": 2,
@@ -129,5 +129,44 @@
       "estado": "activo",
       "id": 2
     }
-  ]
+  ],
+  "Planes": [
+    {
+      "fechaCreacion": "Dec-26-2022",
+      "codigoSocio": "1",
+      "cargo": "1",
+      "concepto": "entrenamiento diario",
+      "vencimiento": "Jan-26-2023",
+      "balance": "",
+      "precio": "1000",
+      "estado": "Dia",
+      "nota": "",
+      "id": 1
+    },
+    {
+      "fechaCreacion": "Dec-26-2022",
+      "codigoSocio": "1",
+      "cargo": "2",
+      "concepto": "entrenamiento diario",
+      "vencimiento": "Jan-26-2023",
+      "balance": "",
+      "precio": "1500",
+      "estado": "Dia",
+      "nota": "",
+      "id": 2
+    },
+    {
+      "fechaCreacion": "Dec-26-2022",
+      "codigoSocio": "1",
+      "cargo": "1",
+      "concepto": "entrenamiento diario",
+      "vencimiento": "Dec-26-2022",
+      "balance": "",
+      "precio": "1000",
+      "estado": "Dia",
+      "nota": "",
+      "id": 3
+    }
+  ],
+  "Pagos": []
 }

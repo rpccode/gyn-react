@@ -13,7 +13,7 @@ export const GynLayout = () => {
         <div className="row">
           <SiderBar/>
 
-          <main className="col-md-9 ms-sm-auto col-lg-10 px-md-4">
+          <main className="col-md-9 ms-sm-auto col-lg-10 px-md-4 animate__fadeIn">
             
               <Outlet/>      
           </main>

@@ -3,6 +3,7 @@ import { useDispatch } from "react-redux";
 import AppRouter from "./router/AppRouter";
 import { StarkObtenerCargos } from "./store/cargo/thunks";
 import { StarkObtenerIncripcions } from "./store/Gyn/inscripccion/thunks";
+import { StarkObtenerPlanes } from "./store/Gyn/planes/thunks";
 import { StarkObtenerTipoPagos } from "./store/Gyn/tipopago/thunks";
 import { StarkObtenerSocios } from "./store/socio/thunks";
 
@@ -21,8 +22,11 @@ const GynApp = () => {
   useEffect(() => {
     dispatch(StarkObtenerSocios());
   }, []);
+  useEffect(() => {
+    dispatch(StarkObtenerPlanes());
+  }, []);
   return (
-    <div className="">
+    <div className=" ">
       <AppRouter />
     </div>
   );
